@@ -1,0 +1,12 @@
+name: Virgo
+description: Substitute environment variables in templated files
+inputs:
+  templates:
+    description: The list of templated files to process
+    required: true
+#outputs: none
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.templates }}
