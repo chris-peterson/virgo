@@ -1,6 +1,6 @@
 # Overview
 
-Version your artifacts with Virgo
+Version your artifacts with [virgo](https://github.com/marketplace/actions/substitute-env-vars) (aka `substitute env vars`)
 
 Uses [`envsubst`](https://github.com/a8m/envsubst#envsubst) (the go version).
 
