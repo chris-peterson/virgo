@@ -1,7 +1,8 @@
 name: substitute env vars
 description: Substitute environment variables in templated files
-icon: chevron-right
-color: yellow
+branding:
+  icon: chevron-right
+  color: yellow
 inputs:
   templates:
     description: The list of templated files to process
