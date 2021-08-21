@@ -1,4 +1,4 @@
-name: Virgo
+name: substitute env vars
 description: Substitute environment variables in templated files
 inputs:
   templates:
